@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #303030;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  width: 100%;
+  background-color: #000;
+  border-bottom: 2px solid rgb(23, 200, 23);
+}
+header h1 {
+  padding: 40px 20px;
+  color: rgb(23, 200, 23);
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 2rem;
+  padding: 30px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div {
+  width: 300px;
+  height: 300px;
+  margin: 50px auto;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+}
+div p {
+  line-height: 240px;
+}
+div p:nth-last-child(1) {
+  line-height: 80px;
+}
+div input {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  margin: 30px 0 0 0;
+}
+@media screen and (min-width: 610px) and (max-width: 1280px) {
+  div {
+    width: 150px;
+    height: 150px;
+  }
+  div p:nth-last-child(1) {
+    line-height: 10px;
+  }
+  div input {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    margin: 15px 0 0 0;
+  }
+  div p {
+    line-height: 90px;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 609px) {
+  div {
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+  }
+  div p {
+    line-height: 5px;
+    font-size: 1rem;
+  }
+}
+
+div:nth-child(1) {
+  background-color: black;
+}
+
+div:nth-child(2) {
+  background-color: rgb(15, 15, 29);
+}
+
+div:nth-child(3) {
+  background-color: gray;
+}
+
+div:nth-child(4) {
+  background-color: rgb(141, 62, 75);
+}
+
+div:nth-child(5) {
+  background-color: purple;
+}
+
+div:nth-child(6) {
+  background-color: rgb(143, 104, 60);
+}
+
+div:nth-child(7) {
+  background-color: rgb(133, 67, 214);
+}
+
+p {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
